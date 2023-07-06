@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/noy4/kfetch/compare/v0.0.4...v0.0.5)
+
+### 🏡 Chore
+
+- **release:** V0.0.4 ([7852972](https://github.com/noy4/kfetch/commit/7852972))
+
+### ❤️  Contributors
+
+- Noy4 <naoyan418@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/noy4/kfetch/compare/v0.0.3...v0.0.4)
