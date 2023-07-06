@@ -1,6 +1,6 @@
 {
   "name": "@noy4/kfetch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fetch for k",
   "exports": {
     ".": {
@@ -16,7 +16,7 @@
     "dev": "vitest",
     "test": "vitest run --coverage",
     "build": "unbuild",
-    "release": "npm run test && changelogen --release && npm publish && git push --follow-tags"
+    "release": "npm run test && changelogen --release && npm publish"
   },
   "author": "",
   "license": "ISC",
