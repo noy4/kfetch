@@ -2,6 +2,7 @@
   "name": "@noy4/kfetch",
   "version": "0.0.4",
   "description": "fetch for k",
+  "repository": "noy4/kfetch",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -16,7 +17,8 @@
     "dev": "vitest",
     "test": "vitest run --coverage",
     "build": "unbuild",
-    "release": "npm run test && changelogen --release && npm publish"
+    "release": "npm run test && changelogen --release && npm publish",
+    "prepack": "npm run build"
   },
   "author": "",
   "license": "ISC",
