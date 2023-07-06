@@ -18,7 +18,7 @@
     "dev": "vitest",
     "test": "vitest run --coverage",
     "build": "unbuild",
-    "release": "npm run test && changelogen --release && npm publish && git push",
+    "release": "npm run test && changelogen --release && npm publish && git push --follow-tags",
     "prepack": "npm run build"
   },
   "author": "",
