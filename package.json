@@ -2,7 +2,13 @@
   "name": "@noy4/kfetch",
   "version": "0.0.3",
   "description": "fetch for k",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
     "dev": "vitest",
     "test": "vitest run --coverage",
