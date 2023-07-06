@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "vitest",
-    "test": "vitest run --coverage"
+    "test": "vitest run --coverage",
+    "build": "unbuild",
+    "release": "npm run test && changelogen --release && npm publish && git push --follow-tags"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vitest/coverage-v8": "^0.32.4",
     "@vitest/ui": "^0.32.4",
+    "unbuild": "^1.2.1",
     "vitest": "^0.32.4"
   }
 }
